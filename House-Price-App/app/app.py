@@ -2,12 +2,16 @@ import streamlit as st
 import joblib
 import numpy as np
 import pandas as pd
+import os
 
 # Page config
 st.set_page_config(page_title="House Price Predictor", page_icon="🏠", layout="centered")
 
 # Load model
-model = joblib.load("../model/model.pkl")
+current_dir = os.path.dirname(__file__)
+model_path = os.path.join(current_dir, "..", "model", "model.pkl")
+
+model = joblib.load(model_path)
 
 # Title
 st.title("🏠 House Price Prediction App")
