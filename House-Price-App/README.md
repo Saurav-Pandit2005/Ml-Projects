@@ -4,7 +4,7 @@ A Machine Learning powered web application that predicts house prices based on v
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 🔗 Streamlit App: https://house-price-predictor-saurav.streamlit.app/
 
@@ -43,13 +43,13 @@ The model predicts house prices based on the following housing features:
 
 ## 🧠 Machine Learning Model
 
-### ✅ Algorithm Used
+### Algorithm Used
 - Random Forest Regressor
 
-### ✅ Evaluation Metric
+### Evaluation Metric
 - R² Score
 
-### ✅ Model Accuracy
+### Model Accuracy
 - 0.87 R² Score
 
 ---
@@ -123,58 +123,3 @@ streamlit run app/app.py
 ```
 
 ---
-
-## 🌐 Deployment
-
-This project is deployed using:
-
-- Streamlit Cloud
-- GitHub
-
----
-
-## 🎯 Purpose of Project
-
-This project demonstrates how Machine Learning can be used to solve real-world regression problems and deploy predictive models using an interactive web application.
-
----
-
-## 🔥 Key Highlights
-
-- End-to-end Machine Learning Project
-- Data Preprocessing
-- Feature Engineering
-- Model Training & Evaluation
-- Model Serialization using Joblib
-- Interactive Streamlit UI
-- Cloud Deployment
-
----
-
-## 🛠️ Technologies Used
-
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas
-- NumPy
-- Joblib
-- Git & GitHub
-
----
-
-## 👨‍💻 Author
-
-### Saurav Pandit
-
-- Computer Engineering Student
-- Aspiring Data Engineer & ML Enthusiast
-- Skilled in Python, SQL, Machine Learning, and MERN Stack
-
-🔗 GitHub: https://github.com/Saurav-Pandit2005
-
----
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
