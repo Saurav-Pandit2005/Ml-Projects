@@ -7,7 +7,7 @@ import pandas as pd
 st.set_page_config(page_title="House Price Predictor", page_icon="🏠", layout="centered")
 
 # Load model
-model = joblib.load("model/model.pkl")
+model = joblib.load("../model/model.pkl")
 
 # Title
 st.title("🏠 House Price Prediction App")
