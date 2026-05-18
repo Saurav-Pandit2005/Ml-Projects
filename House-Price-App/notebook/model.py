@@ -33,5 +33,5 @@ pred = np.expm1(model.predict(X_test))
 print("R2 Score:", r2_score(np.expm1(y_test), pred))
 
 # Save model
-joblib.dump(model, "model/model.pkl")
+model = joblib.load("../model/model.pkl")
 print("Model saved!")
